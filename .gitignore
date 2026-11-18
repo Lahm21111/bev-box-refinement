@@ -1,0 +1,60 @@
+# Local environments and Python caches.
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Local secrets. Only the empty configuration template is versioned.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+secrets*.json
+
+# Dataset links, generated cases, reference images, and experiment outputs.
+/data/
+/datasets/
+/outputs/
+/examples/
+*.las
+*.laz
+*.bin
+*.npy
+*.npz
+*.pkl
+*.pickle
+
+# Model weights and downloaded archives.
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.safetensors
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+*.7z
+
+# Editor, agent, and OS-local state.
+.sii/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+*~

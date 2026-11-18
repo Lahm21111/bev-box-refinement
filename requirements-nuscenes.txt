@@ -1,0 +1,2 @@
+# Optional: only needed by visualize_nuscenes_devkit_camera.
+nuscenes-devkit
